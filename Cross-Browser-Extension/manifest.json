@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome Image Extension",
+  "version": "0.1",
+  "web_accessible_resources": [        //web accessible resources are written before content
+    "Ankit/*.jpg"
+  ],
+  "content_scripts": [{
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["image.js"]
+  }]
+
+
+}

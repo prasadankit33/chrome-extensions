@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Ankit Extension",
+	"version": "2.0",
+	"content_scripts":
+	[
+		{
+			"matches":
+			[
+				"http://shiffman.net/","http://shiffman.net/"                                           //for all urls     <all_urls>
+			],
+			"js" : ["content.js"]		
+		}
+	]
+}
